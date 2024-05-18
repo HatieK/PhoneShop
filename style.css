@@ -1,0 +1,49 @@
+.body {
+  background-image: url("./img/pngtree-double-eleven-2-5d-mobile-phone-shopping-banner-poster-image_924667.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+  color: aqua;
+  font-size: 70px;
+}
+
+.content-page {
+  max-width: 1100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.admin {
+  margin-left: 200px;
+}
+
+.admin i {
+  font-size: 40px;
+  color: aquamarine;
+}
+
+.admin span {
+  font-size: 40px;
+  color: aquamarine;
+  margin-left: 20px;
+}
+
+.user i {
+  font-size: 40px;
+  color: aquamarine;
+}
+
+.user span {
+  font-size: 40px;
+  color: aquamarine;
+  margin-left: 20px;
+}

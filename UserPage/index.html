@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="overlay"></div>
+
+    <div class="menu-cart">
+        <a class="close">
+            <i class="fa-solid fa-xmark"></i>
+        </a>
+        <h2>Cart</h2>
+        <div class="cart-items">
+
+        </div>
+        <p class="total"></p>
+
+    </div>
+
+
+
+    <div class="filter-form">
+        <select id="mySelect" onChange="handleFilterProduct()">
+            <option value="--">Vui lòng chọn</option>
+            <option value="Samsung">SamSung</option>
+            <option value="Iphone">Apple</option>
+        </select>
+    </div>
+
+    <div class="cart-shopping">
+        <i class="fa-solid  fa-cart-shopping"></i>
+        <div class="card-quantity">
+            <p class="number">0</p>
+        </div>
+
+    </div>
+    <div class="container">
+        <div class="card-list">
+        </div>
+    </div>
+
+    <!-- AXIOS -->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.8/axios.min.js"
+        integrity="sha512-PJa3oQSLWRB7wHZ7GQ/g+qyv6r4mbuhmiDb8BjSFZ8NZ2a42oTtAq5n0ucWAwcQDlikAtkub+tPVCw4np27WCg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- TOAST  -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./assets/controller.js"></script>
+    <script src="./assets/main.js"></script>
+</body>
+
+</html>
